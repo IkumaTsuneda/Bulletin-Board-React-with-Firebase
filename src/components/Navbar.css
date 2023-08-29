@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: royalblue;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+}
+
+nav a svg {
+    margin-right: 5px;
+}
